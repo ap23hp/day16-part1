@@ -1,0 +1,320 @@
+
+section{
+    
+   
+ background-color: #333131;
+ /* max-width:1400px; */
+ 
+
+ 
+}
+
+
+
+.subhead{
+    text-transform: uppercase;
+    text-align: end;
+    margin-left:79px ;
+    color:aliceblue
+    
+}
+.heading{
+font-size: 80px;
+font-weight: 900;
+color:#FC5C60;
+}
+.logo i{
+    text-align: right;
+    padding-top: 40px;
+border: 1px solid black;
+border-radius: 60%;
+padding: 10px;
+margin-top:20px;
+background-color: #03B0E8;
+
+
+}
+.logo{
+    text-align: end;
+    
+}
+
+body{
+    height: 200vh;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+h2{
+    font-size: medium;
+}
+/* .main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    color:aliceblue;
+ } */
+
+.one{
+    
+    /* display:flex;
+    flex-direction: row; */
+    color:aliceblue;
+    
+ 
+  width:100%;
+  margin: 30px;
+  /* margin-left:16px; */
+  position:relative;
+  left:1%;
+
+  
+   
+}
+.big{
+    font-size:x-large;
+    font-weight: 900;
+}
+.short{
+    font-weight: bold;
+    font-weight: 700;
+}
+.aa{
+   
+    text-align:center;
+    background-color: #FF9E1B;
+    padding: 10px;
+    line-height: 5px;
+   
+
+}
+/* container main{
+    width: 792px;
+} */
+.deo{
+    color:aliceblue
+}
+.threelogo{
+    margin-bottom: 18px;
+}
+p{
+    margin: 12%;
+}
+.bb{
+    background-color: #03B0E8;
+    text-align:center;
+    padding:10px;
+    
+    line-height: 5px;
+}
+.bbb{
+    padding-bottom:10px;
+    padding-top: 10px;
+}
+.two{
+ 
+    background-color: #FF5959;
+    width:102%;
+    margin: 30px;
+    position:relative;
+  left:0%;
+   
+  
+}
+.hh{
+    font-weight: 700;
+    /* padding-top: 40px; */
+    color:whitesmoke;
+    line-height: 20px;
+    /* margin: 5px; */
+    
+}
+.dd{
+    padding-top: 40px;  
+}
+.logoo{
+color: #221f1f;
+padding-bottom: 20px;
+}
+.vv{
+    margin-left:0px;
+  font-size: 14px;
+  line-height: 8px;
+  color:whitesmoke;
+ 
+}
+.three{
+    
+    background-color: #03B0E8;
+    width:102%;
+    margin-bottom: 30px;
+    color:whitesmoke;
+    /* margin:150px; */
+    position:relative;
+  left:0%;
+
+   
+}
+.head2{
+    padding-left: 40px;
+    font-weight: 700;
+}
+.thre{
+    text-align: left;
+    /* line-height: 16px; */
+    /* margin-bottom: 0px; */
+}
+/* .get{
+    padding-top: 20px;
+    
+} */
+.under{
+    text-decoration:underline;
+}
+header{
+    margin-top:150px;
+    margin-bottom:70px;
+}
+.four{
+    width:100%;
+    text-align: center;
+    line-height: 10px;
+    margin: 30px;
+    /* padding-top:0px; */
+    position:relative;
+  left:1%;
+  /* top:10%; */
+    
+}
+
+.french{
+    background-color: #FF5959;
+    padding-top: 20px;
+    color:whitesmoke;
+
+}
+.fou{
+    width:100%;
+    background-color: #FF9E1B;
+    padding-top: 20px;
+    color:whitesmoke;
+}
+.five{
+    width:102%;
+     background-color: #03B0E8;
+     color:whitesmoke;
+     padding-top: 20px;
+     margin-bottom: 30px;  line-height: 10px;
+     text-align: left;
+     margin-bottom: 30px;
+     position:relative;
+     left:0%;
+}
+
+.six{
+    width:100%;
+   background-color: #FF9E1B;
+    color:whitesmoke;
+    padding-top: 20px;
+    line-height: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    position:relative;
+    left:1%;
+}
+.seven{
+    width:102%;
+    padding-top: 10px;
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 30px; 
+    color: aliceblue; 
+}
+.partone{
+    width:100%;
+    padding: 20px;
+    background-color: #03B0E8;
+}
+.parttwo{
+    width:100%;
+    background-color: #FF5959;
+    padding: 20px;
+}
+
+@media (max-width:767px){
+   body{
+       min-height: 350vh;
+   }
+
+   
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.aa{
+    line-height: 15px;
+    border-radius: 10%;
+}
+.bb{
+    line-height: 15px;
+    border-radius: 10%;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.two{
+    border-radius: 10%;
+}
+.french{
+    line-height: 18px;
+    border-radius: 10%;
+}
+.fou{
+    line-height: 18px;
+    border-radius: 10%;
+}
+
+.seven{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.five{
+    border-radius: 20%;
+}
+.three{
+    border-radius: 5%;
+}
+.six{
+    border-radius: 20%;
+}
+.partone{
+    line-height: 18px;
+    border-radius: 50%;
+}
+.parttwo{
+    line-height: 18px;
+    border-radius: 20%;
+}
+
+
+
+
+}
